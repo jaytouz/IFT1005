@@ -1,0 +1,43 @@
+a:link{
+    color:black;
+    text-decoration: none;
+    font-size:14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav {
+    text-align: right;
+    padding-top: 7px;
+}
+
+/* this class is for the navigation bar links at the top of our page*/
+
+.nav a{
+    font-size:16px;
+    color:slategrey;
+    background: transparent;
+    border: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#sign_in {
+    border-left:red;
+    margin-left: 39px;
+    margin-right: 66px;
+}
+
+.caron {
+  border: solid black;
+  border-width: 1px 1px 0px 0;
+  display: inline-block;
+  padding: 2px;
+  transform: rotate(45deg);
+  transform: rotate(135deg);
+}
+
+#logo {
+    margin-left: 53px;
+    float: left;
+    /*margin-top: 0px;*/
+    /*padding-top: 0px;*/
+}
