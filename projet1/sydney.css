@@ -4,6 +4,19 @@
 html{
     font-size: 20px;
 }
+
+body{
+    width: 100%;
+    font-family: "Graphik Web", sans-serif;
+    font-size: .9rem;
+    line-height: 1.5;
+    color: #55647b;
+    letter-spacing: normal;
+}
+
+h2{
+    font-size: 2rem;
+}
 header.main-header{
 
     width: 100%;
@@ -111,16 +124,6 @@ a.link-ref-sub-menu{
 }
 
 /* BODY*/
-body{
-    width: 100%;
-    font-family: "Graphik Web", sans-serif;
-    font-size: .9rem;
-    line-height: 1.5;
-    color: #55647b;
-    letter-spacing: normal;
-    -webkit-font-smoothing: antialiased;
-
-}
 /* PAGE COUNTAINER SECTION 1*/
 div.countainer-sydney-section1{
     width: 862px;
@@ -192,63 +195,63 @@ div.three-botton-wrapper {
 }
 /* BOTTON DEMO*/
 a.demos-btn {
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top:11px;
-    padding-bottom:11px;
-
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 20px;
-    margin-bottom: 0px;
-    border-radius: 5px;
-
-    background-color:rgb(212, 215, 218);
-    color:blue;
-    font-family: 'Roboto',sans-serif;
-    font-size: 16px;
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    padding: .55rem 1.5rem .6rem;
+    font-family: "Graphik Web", sans-serif;
+    font-size: .85rem;
+    font-weight: 500;
+    line-height: 1.5;
+    text-decoration: none;
+    white-space: nowrap;
+    cursor: pointer;
+    color: #4769d8;
+    background-color: #e7ebfa;
+    border-radius: .2rem;
+    max-width: 100%;
+    margin: 20px 10px 0;
 }
 
 /* BOTTON DOWNLOAD*/
 a.download-btn {
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top:11px;
-    padding-bottom:11px;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 20px;
-    margin-bottom: 0px;
-    border-radius: 5px;
-
-    background-color:green;
-    color:white;
-    font-family: 'Roboto',sans-serif;
-    font-size: 16px;
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    padding: .55rem 1.5rem .6rem;
+    font-family: "Graphik Web", sans-serif;
+    font-size: .85rem;
+    font-weight: 500;
+    line-height: 1.5;
+    text-decoration: none;
+    white-space: nowrap;
+    cursor: pointer;
+    color: white;
+    background-color: #3fb28f;
+    border-color: #3fb28f;
+    border-radius: .2rem;
+    max-width: 100%;
+    margin: 20px 10px 0;
 }
 
 /* BUTTON GO PRO*/
 
 /* BOTTON DOWNLOAD*/
 a.go-pro-btn {
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top:11px;
-    padding-bottom:11px;
-
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 20px;
-    margin-bottom: 0px;
-    border-radius: 5px;
-
-    background-color:red;
-    color:white;
-    font-family: 'Roboto',sans-serif;
-    font-size: 16px;
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    padding: .55rem 1.5rem .6rem;
+    font-family: "Graphik Web", sans-serif;
+    font-size: .85rem;
+    font-weight: 500;
+    line-height: 1.5;
+    text-decoration: none;
+    white-space: nowrap;
+    cursor: pointer;
+    color: white;
+    background-color: #ea2e49;
+    border-color: #ea2e49;
+    border-radius: .2rem;
+    max-width: 100%;
+    margin: 20px 10px 0;
 }
 
 
@@ -269,14 +272,310 @@ div.left-info {
 }
 
 
-div.page-theme-feature {
-    width: 862px;
+
+/* PAGE THEME FEATURE */
+
+h1.page-title{
+    width: 450px;
     max-width: 100%;
     margin-right: auto;
     margin-left: auto;
-    padding-bottom: 40px;
+    font-size: 2rem;
+    font-family: "Graphik Web", sans-serif;
+    color: #131a2b;
+}
+div.theme-feature-container{
+    width: 1030px;
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+div.flex-container {
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.flex-theme-column {
+    max-width: 50%;
+}
+
+div.flex-item{
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 70px 70px 0 70px;
+    background-color: #f8f9fd;
+    border-radius: .45rem;
+}
+
+.flex-item-title{
+    font-size: 1.5rem;
+}
+
+.flex-item-text{
+    font-size: 1rem;
+}
+
+.flex-item-img-container img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border-style: none;
+}
+
+/* SECTION DARK */
+
+section.included-dark-section{
+    background-color: #242d43;
+    padding-top: 140px;
+    padding-bottom: 140px;
+    text-align: center;
+}
+
+/*SECTION CONTAINER utilisé dans le début d'une section */
+div.section-container{
+    max-width: 1180px;
+    margin-bottom: 140px;
+    align-content: center;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+div.section-text-dark{
+    width: 470px;
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h2.title-dark-section{
+    color:white;
+}
+
+.included-dark-section p{
+    color: #95aaca;
+}
+
+div.dark-flex-item{
+    text-align: left;
+    padding-top: 60px;
+    padding-right: 3%;
+    padding-left: 3%;
+    flex-grow: 1;
+    max-width: 27%;
+
+
+}
+
+div.dark-item-icon{
+    height: 40px;
+    margin-bottom: 15px;
+}
+
+div.dark-item-title{
+    color: #ffffff;
+}
+
+
+div.dark-item-description{
+    color: #95aaca;
+    font-size: .8rem;
+    text-align: left;
+}
+
+.create-website-section{
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+    margin-bottom: 120px;
     text-align: center;
 }
 
 
+.title-section {
+    margin-top: 0;
+    margin-bottom: 1.7rem;
+    font-family: "Graphik Web", sans-serif;
+    font-weight: 500;
+    line-height: 1.4;
+    color: #131a2b;
+    text-transform: none;
+    letter-spacing: normal;
+}
 
+.btn-group{
+    justify-content: center;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin: -20px -10px 0;
+}
+
+
+section.media{
+    margin-top: 140px;
+}
+
+.btn-media-btn-row{
+    display: flex;
+}
+
+.btn-arrow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    background-color: #4769d8;
+    will-change: opacity;
+    padding: 30px;
+    text-align: left;
+    border: 1px solid #dde2ea;
+    border-radius: .25rem;
+}
+
+
+.media-container{
+    padding: 30px;
+    text-align: left;
+    border: 1px solid #dde2ea;
+    border-radius: .25rem;
+}
+
+.media-img{
+    margin-right: 20px;
+    display: inline-block;
+    align-items: center;
+
+}
+
+
+.media-img img{
+    border-radius: 50%;
+    
+}
+.media-body{
+    display:inline-block;
+}
+.media-name{
+    font-weight: bold;
+    align-items: center;
+}
+/* FOOTER */
+footer {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: #f0f4f8;
+}
+/* Container */
+
+/* TOP */
+.footer-top-container{
+    padding-bottom: 70px;
+    margin-bottom: 70px;
+    border-bottom: 1px solid #e0e6ee;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+/* FELLOW */
+.follow-network{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    overflow-x: hidden;
+    background-color: #f0f4f8;
+    max-width: 34%;
+}
+
+.network-fellow-flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 40px;
+    margin-left: 40px;
+    align-items: center;
+    font-size: 1rem;
+    color: #131a2b;
+    text-align: left;
+    font-family: "Graphik Web", sans-serif;
+    flex-grow: 1;
+    max-width: 100%;
+    font-weight: 500;
+}
+
+.logo-twitter-facebook{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.facebook{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    margin: 16px 8px 0;
+    background-color: #b4c2ef;
+    border-radius: 100%;
+}
+
+.twitter{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    margin: 16px 8px 0;
+    background-color: #b4c2ef;
+    border-radius: 100%;
+}
+
+/* SUBSCRIBE */
+.subscribe-form-container{
+    flex-grow: 1;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+.subscribe-form-container div{
+    display: inline-flex;
+    text-align: left;
+    max-width: 40%;
+    font-weight: bold;
+    color: black;
+    font-family: "Graphik Web", sans-serif;
+}
+
+.subscribe-form-container div div{
+    padding-top: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
+    display: inline-flex;
+}
+
+.update-form{
+    padding-right: 10px;
+    background-color: #fff;
+    border-radius: .15rem;
+    position: relative;
+    display: inline-flex;
+}
+/* BODY */
+/* COUNTAINER */
+    /* GRID */
+    /* ITEM */
+
+/* BOTTOM */
