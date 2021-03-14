@@ -10,117 +10,162 @@
 <body>
     <div class="nav">
         <img id="logo" src="s.svg" alt="athemes logo" width="112" height="33" id="logo">
-        <a href="#wordpress_themes">WordPress Themes<i class="caron"></i></a>
-        <a href="#support">Support </a>
-        <a href="#blog">Blog</a>
-        <a id="sign_in" href="#sign_in">Sign in</a>
+        <a href="#wordpress_themes" class="nav_href">WordPress Themes<i class="caron"></i></a>
+        <a href="#support" class="nav_href">Support </a>
+        <a href="#blog" class="nav_href">Blog</a>
+        <a id="sign_in" href="#sign_in" class="nav_href">Sign in</a>
     </div>
-    <div class="menu">
-        <a>Blog</a>
-        <a>Reviews</a>
-        <a>Collections</a>
-        <a>Guides</a>
-        <a>Hosting</a>
-        <a>Tutorials</a>
-        <a>search icon</a>
+    <div class="menu-section">
+        <hr class="hr">
+        <div class="menu">
+            <a id="actual-section">Blog</a>
+            <a>Reviews</a>
+            <a>Collections</a>
+            <a>Guides</a>
+            <a>Hosting</a>
+            <a>Tutorials</a>
+            <a id=search-icon>search icon</a>
+        </div>
+        <hr class="hr">
     </div>
+
+    <section class="blogs-section">
     <div class=blogs-grid>
         <div class=blog>
-            <img id="webflow_vs_elementor" src=webflow-vs-elementor-580x340.jpg width="360" height="212">
-            <p class=blog-title>Webflow vs Elementor: A Hands-On Comparison (2021)</p>
-            <p class=blog-description>Modern website building solutions have simplified the process of creating
-                websites. With a user-friendly
-                drag and drop page builder, you can build a professional website…
+            <img id="webflow_vs_elementor" src=image/webflow-vs-elementor-580x340.jpg width="360" height="212">
+            <p class=blog-category> <a href="#Reviews" >Reviews</a></p>
+            <a class=blog-title href="#webflow_vs_shopify" >Webflow vs Elementor: A Hands-On Comparison (2021)</a>
+            <p class=blog-description>
+                Modern website building solutions have simplified the process of creating
+                websites. With a user-friendly drag and drop page builder, you can build a professional website…
             </p>
+            <a class=blog-author href="#author-profile">Kevin Muldoon</a>
+            <a class=blog-date href="webflow_vs_shopify">March 5, 2021</a>
         </div>
         <div class=blog>
-            <img id="aWeber_vs_mailchimp" src=aweber-vs-mailchimp-580x340.jpg width="360" height="212">
-            <p class=blog-title>AWeber vs Mailchimp: The Battle of the Email Marketing Platforms (2021)</p>
-            <p class=blog-description>When it comes to successfully advertising your business, email marketing should be
-                at the core of your
+            <img id="aWeber_vs_mailchimp" src=image/aweber-vs-mailchimp-580x340.jpg width="360" height="212">
+            <p class=blog-category> <a href="#Reviews" >Reviews</a></p>
+            <a class=blog-title href="aWeber_vs_mailchimp">AWeber vs Mailchimp: The Battle of the Email Marketing Platforms (2021)</a>
+            <p class=blog-description>
+                When it comes to successfully advertising your business, email marketing should be at the core of your
                 brand awareness strategy. It’s the perfect medium for…
             </p>
+            <a class=blog-author href="#author-profile">Rosie Greaves</a>
+            <a class=blog-date href="aWeber_vs_mailchimp">February 25, 2021</a>
         </div>
         <div class=blog>
-            <img id="learnDash_vs_teachable" src=learndash-vs-teachable-580x340.jpg width="360" height="212">
-            <p class=blog-title>LearnDash vs Teachable: Which Is Better? (2021)</p>
-            <p class=blog-description>Knowledge is a business — or at least, it can be! Suppose you have lots of
-                know-how in a specific
-                industry or skill. In that…
+            <img id="learnDash_vs_teachable" src=image/learndash-vs-teachable-580x340.jpg width="360" height="212">
+            <p class=blog-category> <a href="#Reviews">Reviews</a></p>
+            <a class=blog-title href="learnDash_vs_teachable">LearnDash vs Teachable: Which Is Better? (2021)</a>
+            <p class=blog-description>
+                Knowledge is a business — or at least, it can be! Suppose you have lots of
+                know-how in a specific industry or skill. In that…
             </p>
+            <a class=blog-author href="#author-profile">Rosie Greaves</a>
+            <a class=blog-date href="learnDash_vs_teachable">February 18, 2021</a>
         </div>
         <div class=blog>
-            <img id="sydnez_1.75" src=slider-image-header-sydney.jpg width="360" height="212">
-            <p class=blog-title>Introducing Sydney 1.75: jQuery Removed, New Onboarding Wizard, Schema Markup & AMP
-                Support</p>
-            <p class=blog-description>The latest release of our free business theme Sydney has arrived. You get the same
-                features you already
-                love, but with faster load times, a…
+            <img id="sydnez_175" src=image/slider-image-header-sydney.jpg width="360" height="212">
+            <p class=blog-category> <a href="#News" >News</a></p>
+            <a class=blog-title href="sydnez_175">Introducing Sydney 1.75: jQuery Removed, New Onboarding Wizard, Schema Markup & AMP
+                Support</a>
+            <p class=blog-description>
+                The latest release of our free business theme Sydney has arrived. You get the same
+                features you already love, but with faster load times, a…
             </p>
+            <a class=blog-author href="#author-profile">Colin Newcomer</a>
+            <a class=blog-date href="sydnez_175">February 18, 2021</a>
         </div>
         <div class=blog>
-            <img id="how-to-add-nav" src=how-to-add-navigation-menu-in-wordpress-580x340.jpg width="360" height="212">
-            <p class=blog-title>How to Add a Navigation Menu in WordPress</p>
-            <p> class=blog-descriptionIt’s essential for your website to have clear, well-arranged navigation that gets
-                users where they want
-                to go. WordPress comes with a user-friendly interface that…
+            <img id="how-to-add-nav" src=image/how-to-add-navigation-menu-in-wordpress-580x340.jpg width="360" height="212">
+            <p class=blog-category> <a href="#Tutorials">Tutorials</a></p>
+            <a class=blog-title href="how-to-add-nav">How to Add a Navigation Menu in WordPress</a>
+            <p class=blog-description>
+                It’s essential for your website to have clear, well-arranged navigation that gets
+                users where they want to go. WordPress comes with a user-friendly interface that…
             </p>
+            <a class=blog-author href="#author-profile">John Hughes</a>
+            <a class=blog-date href="how-to-add-nav">February 10, 2021</a>
         </div>
         <div class=blog>
-            <img id="webflow_vs_shopify" src=webflow-vs-shopify-580x340.jpg width="360" height="212">
-            <p class=blog-title>Webflow vs Shopify: Which Is Better for Your Online Shop? (2021)</p>
-            <p class=blog-description>If you’re new to online selling and keen to get off on the right foot, it’s
-                imperative to choose the
-                right software to kickstart your…
+            <img id="webflow_vs_shopify" src=image/webflow-vs-shopify-580x340.jpg width="360" height="212">
+            <p class=blog-category> <a href="#Reviews">Reviews</a></p>
+            <a class=blog-title href="webflow_vs_shopify">Webflow vs Shopify: Which Is Better for Your Online Shop? (2021)</a>
+            <p class=blog-description>
+                If you’re new to online selling and keen to get off on the right foot, it’s
+                imperative to choose the right software to kickstart your…
             </p>
+            <a class=blog-author href="#author-profile">Rosie Greaves</a>
+            <a class=blog-date href="webflow_vs_shopify">February 3, 2021</a>
         </div>
         <div class=blog>
-            <img id="back-up_wordpress" src=back-up-wordpress-with-updraftplus-580x340.jpg width="360" height="212">
-            <p class=blog-title>How to Back Up Your WordPress Site for Free with UpdraftPlus</p>
-            <p class=blog-description>Looking for the best solution for how to back up WordPress for free? Backups are
+            <img id="back-up_wordpress" src=image/back-up-wordpress-with-updraftplus-580x340.jpg width="360" height="212">
+            <p class=blog-category> <a href="#Tutorials">Tutorials</a></p>
+            <a class=blog-title href="back-up_wordpress">How to Back Up Your WordPress Site for Free with UpdraftPlus</a>
+            <p class=blog-description>
+                Looking for the best solution for how to back up WordPress for free? Backups are
                 essential for every single WordPress site, but that doesn’t necessarily…
             </p>
+            <a class=blog-author href="#author-profile">Colin Newcomer</a>
+            <a class=blog-date href="back-up_wordpress">January 29, 2021</a>
         </div>
         <div class=blog>
-            <img id="increase_memory_limit" src=increase-php-memory-limit-580x340.jpg width="360" height="212">
-            <p class=blog-title>How to Increase the PHP Memory Limit in WordPress</p>
-            <p class=blog-description>Much like any other piece of software, WordPress requires memory to run smoothly.
-                If the content
-                management system (CMS) doesn’t have enough memory allocated for…
+            <img id="increase_memory_limit" src=image/increase-php-memory-limit-580x340.jpg width="360" height="212">
+            <p class=blog-category> <a href="#Tutorials">Tutorials</a></p>
+            <a class=blog-title href="increase_memory_limit">How to Increase the PHP Memory Limit in WordPress</a>
+            <p class=blog-description>
+                Much like any other piece of software, WordPress requires memory to run smoothly.
+                If the content management system (CMS) doesn’t have enough memory allocated for…
             </p>
+            <a class=blog-author href="#author-profile">John Hughes</a>
+            <a class=blog-date href="increase_memory_limit">January 22, 2021</a>
         </div>
         <div class=blog>
-            <img id="best_elementor_alternatives" src=best-elementor-alternatives-580x340.jpg width="360" height="212">
-            <p class=blog-title>7 Best Elementor Alternatives 2021</p>
-            <p class=blog-description>Searching for some Elementor alternatives to visually design content on WordPress
-                without needing any
-                technical knowledge? Since its launch back in 2016, Elementor has rapidly…
+            <img id="best_elementor_alternatives" src=image/best-elementor-alternatives-580x340.jpg width="360" height="212">
+            <p class=blog-category> <a href="#Collections">Collections</a></p>
+            <a class=blog-title href="best_elementor_alternatives">7 Best Elementor Alternatives 2021</a>
+            <p class=blog-description>
+                Searching for some Elementor alternatives to visually design content on WordPress
+                without needing any technical knowledge? Since its launch back in 2016, Elementor has rapidly…
             </p>
+            <a class=blog-author href="#author-profile">Colin Newcomer</a>
+            <a class=blog-date href="best_elementor_alternatives">February 6, 2021</a>
         </div>
         <div class=blog>
-            <img id="redirect_wordpress_url" src=redirect-wordpress-url-580x340.jpg width="360" height="212">
-            <p class=blog-title>How to Redirect a URL in WordPress</p>
-            <p class=blog-description>Updating your WordPress site’s links can be a simple task in theory. However, if
-                you get the process
-                wrong, visitors could end up at a…
+            <img id="redirect_wordpress_url" src=image/redirect-wordpress-url-580x340.jpg width="360" height="212">
+            <p class=blog-category> <a href="#Tutorials">Tutorials</a></p>
+            <a class=blog-title href="redirect_wordpress_url">How to Redirect a URL in WordPress</a>
+            <p class=blog-description>
+                Updating your WordPress site’s links can be a simple task in theory. However, if
+                you get the process wrong, visitors could end up at a…
             </p>
+            <a class=blog-author href="#author-profile">John Hughes</a>
+            <a class=blog-date href="redirect_wordpress_url">January 20, 2021</a>
         </div>
         <div class=blog>
-            <img id="weebly_vs_shopify" src=weebly-vs-shopify-580x340.jpg width="360" height="212">
-            <p class=blog-title>Weebly vs Shopify: Which eCommerce Platform Comes out on Top? (2021)</p>
+            <img id="weebly_vs_shopify" src=image/weebly-vs-shopify-580x340.jpg width="360" height="212">
+            <p class=blog-category> <a href="#Reviews">Reviews</a></p>
+            <a class=blog-title href="weebly_vs_shopify">Weebly vs Shopify: Which eCommerce Platform Comes out on Top? (2021)</a>
             <p class=blog-description>
                 If you’re about to build your first-ever online store, there’s a good chance you’ve already done some
                 research, and two names are cropping up time…
             </p>
+            <a class=blog-author href="#author-profile">Rosie Greaves</a>
+            <a class=blog-date href="weebly_vs_shopify">January 15, 2021</a>
         </div>
         <div class=blog>
-            <img id="dashboard_daravel_templates" src=Now-UI-Dashboard-Laravel-580x340.jpg width="360" height="212">
-            <p class=blog-title>13 Best Laravel Admin Templates 2021</p>
-            <p class=blog-description>These free and premium Laravel admin templates aim to help you build your own
-                dashboard or admin area.
-                They are ideal for creating backends for…</p>
+            <img id="dashboard_daravel_templates" src=image/Now-UI-Dashboard-Laravel-580x340.jpg width="360" height="212">
+            <p class=blog-category> <a href="#Collections">Collections</a></p>
+            <a class=blog-title href="dashboard_daravel_templates">13 Best Laravel Admin Templates 2021</a>
+            <p class=blog-description>
+                These free and premium Laravel admin templates aim to help you build your own
+                dashboard or admin area. They are ideal for creating backends for…
+            </p>
+            <a class=blog-author href="#author-profile">Joe Fylan</a>
+            <a class=blog-date href="dashboard_daravel_templates">January 14, 2021</a>
         </div>
     </div>
+</section>
 </body>
 
 </html>
