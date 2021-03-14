@@ -1,0 +1,282 @@
+
+/* ALL PAGE COMMON */
+
+html{
+    font-size: 20px;
+}
+header.main-header{
+
+    width: 100%;
+    max-width: 100%;
+    color: #bfc1c4;
+    justify-content: center;
+
+}
+
+hr.main-nav-hr{
+    width: 100%;
+    color: #bfc1c4;
+    border-width: 0.5px;
+}
+
+a:link{
+    color:black;
+    text-decoration: none;
+    font-size:14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav {
+    text-align: right;
+    padding-top: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1180px;
+    height: 100%;
+
+}
+
+/* this class is for the navigation bar links at the top of our page*/
+
+.nav a{
+    font-size:16px;
+    color:slategrey;
+    background: transparent;
+    border: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#sign_in {
+    border-left:red;
+    margin-left: 39px;
+    margin-right: 66px;
+}
+
+.caron {
+  border: solid black;
+  border-width: 1px 1px 0px 0;
+  display: inline-block;
+  padding: 2px;
+  transform: rotate(45deg);
+  transform: rotate(135deg);
+}
+
+#logo {
+    
+    float: left;
+    justify-content: center;
+    /*margin-top: 0px;*/
+    /*padding-top: 0px;*/
+}
+
+/* SUB MENU SYDNEY */
+
+div.second-header{
+    width: 1180px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 40px;
+}
+
+nav.sub-nave{
+    text-align: center;
+    justify-content: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+a.no-link-ref{
+    font-size: 1.3rem;
+    color: black;
+    font-family: 'Roboto',sans-serif;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+a.link-ref-active-sub-menu{
+    font-size: 1rem;
+    color:blue;
+    font-family: 'Roboto',sans-serif;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+a.link-ref-sub-menu{
+    font-size: 1rem;
+    color: grey;
+    font-family: 'Roboto',sans-serif;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+/* BODY*/
+body{
+    width: 100%;
+    font-family: "Graphik Web", sans-serif;
+    font-size: .9rem;
+    line-height: 1.5;
+    color: #55647b;
+    letter-spacing: normal;
+    -webkit-font-smoothing: antialiased;
+
+}
+/* PAGE COUNTAINER SECTION 1*/
+div.countainer-sydney-section1{
+    width: 862px;
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+/* PAGE TITLE */
+h1.page-section-title{
+    font-size: 2.5em;
+    margin-bottom: 3rem;
+    font-family: "Graphik Web", sans-serif;
+    margin-bottom: 1.7em;
+    color: black;
+    margin-block-start: 1.5rem;
+    margin-block-end: 1.5rem;
+}
+
+
+
+/* FIRST PARAGRAPH*/
+div.first-paragraph{
+    text-align: center;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+p#sydney-description{
+    line-height: 1.5;
+    color: slategray;
+    text-align: center;
+    margin-top: -.35rem;
+    margin-bottom: 2rem;
+    letter-spacing: normal;
+}
+
+/* ELEMENTOR IMG LINK*/
+div.elementor-img-link span,p{
+    margin-bottom: 0.5rem;
+}
+p#recommended-by-ele{
+    color:slategray;
+    text-align: center;
+    font-family: 'Roboto',sans-serif;
+    margin-top:0rem;
+}
+
+span.elementor-bold-caps{
+    color:slategray;
+    text-align: center;
+    font-family: 'Roboto',sans-serif;
+    font-style: bold;
+}
+
+/* IMG HARDWARD*/
+div.img-hardward{
+    margin-bottom: 30px;
+}
+/* three-botton-wrapper*/
+div.three-botton-wrapper {
+    max-width: 1200px;
+    box-sizing: border-box;
+    margin:auto;
+
+}
+/* BOTTON DEMO*/
+a.demos-btn {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top:11px;
+    padding-bottom:11px;
+
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    border-radius: 5px;
+
+    background-color:rgb(212, 215, 218);
+    color:blue;
+    font-family: 'Roboto',sans-serif;
+    font-size: 16px;
+    display: inline-block;
+}
+
+/* BOTTON DOWNLOAD*/
+a.download-btn {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top:11px;
+    padding-bottom:11px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    border-radius: 5px;
+
+    background-color:green;
+    color:white;
+    font-family: 'Roboto',sans-serif;
+    font-size: 16px;
+    display: inline-block;
+}
+
+/* BUTTON GO PRO*/
+
+/* BOTTON DOWNLOAD*/
+a.go-pro-btn {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top:11px;
+    padding-bottom:11px;
+
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    border-radius: 5px;
+
+    background-color:red;
+    color:white;
+    font-family: 'Roboto',sans-serif;
+    font-size: 16px;
+    display: inline-block;
+}
+
+
+/* PAGE SECTION INFO */
+
+div.page-info-delimitter{
+    background-color: #fafbfd;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+div.left-info {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -9px;
+    margin-right: -9px;
+}
+
+
+div.page-theme-feature {
+    width: 862px;
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+
+
