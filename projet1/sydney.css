@@ -18,12 +18,8 @@ h2{
     font-size: 2rem;
 }
 header.main-header{
-
-    width: 100%;
-    max-width: 100%;
     color: #bfc1c4;
     justify-content: center;
-
 }
 
 hr.main-nav-hr{
@@ -32,12 +28,12 @@ hr.main-nav-hr{
     border-width: 0.5px;
 }
 
-a:link{
-    color:black;
+
+a {
+    color: #131a2b;
     text-decoration: none;
-    font-size:14px;
-    font-family: Arial, Helvetica, sans-serif;
 }
+
 .nav {
     text-align: right;
     padding-top: 7px;
@@ -256,22 +252,108 @@ a.go-pro-btn {
 
 
 /* PAGE SECTION INFO */
+section.info-section{
+    padding-top: 45px;
+    padding-bottom: 45px;
+    background-color: #fafbfd;
+}
+
 
 div.page-info-delimitter{
-    background-color: #fafbfd;
-    padding-bottom: 40px;
-    text-align: center;
+    max-width: 1180px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
-div.left-info {
-    box-sizing: border-box;
+/* info container */
+.info-container-flex{
+    display: flex;
+    margin-top: -40px;
+    margin-right: -60px;
+    margin-left: -60px;
+}
+
+.left-info-container{
+    max-width: 100%;
+    width: 33%;
+    padding-top: 40px;
+    padding-right: 60px;
+    padding-left: 60px;
+}
+
+
+div.left-info-container {
     display: flex;
     flex-wrap: wrap;
-    margin-left: -9px;
-    margin-right: -9px;
+    margin-left: -10px;
+    margin-right: -10px;
+    font-size: .7rem;
 }
 
+#theme-support{
+    display: inline-block;
+    font-size: 0.7rem;
+}
 
+.left-info span{
+    padding-top: 4px;
+    padding-right: 5px;
+    padding-bottom: 0px;
+    padding-left: 5px;
+
+}
+
+div.middle-info-container{
+    max-width: 100%;
+    width: 33%;
+    padding-top: 40px;
+    padding-right: 60px;
+    padding-left: 60px;
+}
+
+div.middle-info-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.middle-info-container span{
+    margin-right: 20px;
+}
+
+.upper-text-info{
+    display:block;
+    color: rgb(52, 101, 236);
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1;
+    color: currentColor;
+}
+
+.lower-text-info{
+    font-size: .8rem;
+    color: #55647b;
+    padding: 10px;
+    margin: 10px;
+}
+
+div.right-info-container{
+    max-width: 100%;
+    display: flex;
+    padding-top: 40px;
+    padding-right: 60px;
+    padding-left: 60px;
+}
+
+.right-info-container a{
+    display: flex;
+    align-content: space-between;
+}
+
+#documentation{
+    display: inline-block;
+    font-size: 0.7rem;
+}
 
 /* PAGE THEME FEATURE */
 
@@ -478,20 +560,17 @@ footer {
 
 /* TOP */
 .footer-top-container{
-    padding-bottom: 70px;
-    margin-bottom: 70px;
     border-bottom: 1px solid #e0e6ee;
     display: flex;
     flex-wrap: wrap;
+    padding-bottom: 30px;
 
 }
 /* FELLOW */
 .follow-network{
-    padding-top: 70px;
-    padding-bottom: 70px;
     overflow-x: hidden;
     background-color: #f0f4f8;
-    max-width: 34%;
+    max-width: 33%;
 }
 
 .network-fellow-flex-container{
@@ -542,40 +621,169 @@ footer {
 
 /* SUBSCRIBE */
 .subscribe-form-container{
-    flex-grow: 1;
-    max-width: 100%;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    max-width: 67%;
+    padding-right: 50px;
+    padding-left: 50px;
+    align-content: center;
 
 }
 
-.subscribe-form-container div{
-    display: inline-flex;
+.form-subscribe{
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;    
+}
+
+div#label-subscribe-form{
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
     text-align: left;
-    max-width: 40%;
     font-weight: bold;
     color: black;
     font-family: "Graphik Web", sans-serif;
+    max-width: 30%;
 }
 
-.subscribe-form-container div div{
-    padding-top: 20px;
-    padding-right: 15px;
-    padding-left: 15px;
-    display: inline-flex;
+.update-form-text-place-holder{
+    border: 0;
+    color: #131a2b;
+    vertical-align: center;
+    font-family: "Graphik Web", sans-serif;
+    font-size: .9rem;
 }
 
 .update-form{
     padding-right: 10px;
     background-color: #fff;
-    border-radius: .15rem;
+    border-radius: .25rem;
     position: relative;
     display: inline-flex;
+    
+}
+
+.btn-subscribe{
+    font-family: "Graphik Web", sans-serif;
+    font-size: .85rem;
+    color: #fff ;
+    white-space: nowrap;
+    background-color: #4769d8;
+    border: 1px solid #4769d8;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: .25rem;
+    
 }
 /* BODY */
+.footer-body-container{
+    padding-top: 40px;
+    line-height: 1.5;
+    font-size: .7rem;
+    color: #55647b;
+    padding-left: 30px;
+    padding-right: 30px;
+}
 /* COUNTAINER */
     /* GRID */
+.footer-body-grid{
+    display: flex;
+    flex-wrap: wrap;
+    
+    margin-top: -60px;
+    margin-right: -50px;
+    margin-left: -50px;
+    padding-top: 60px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+#logo-footer{
+    display: flex;
+}
+
     /* ITEM */
+.footer-body-grid-item-left{
+    max-width: 34%;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.footer-body-grid-item-middle{
+    max-width: 36%;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.footer-body-grid-item-right{
+
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.footer-body-grid-item-left p{
+    text-align: justify;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    line-height: 1.71;
+}
+div.footer-menu-list{
+    width: 100%;
+}
+div.footer-menu-list-middle ul{
+    flex-direction: column;
+    column-count: 2;
+    padding: 0;
+    margin :0;
+    justify-content: space-around;
+    align-content: flex-start;
+    padding-inline-start: 0px;
+}
+
+div.footer-menu-list-right ul{
+    padding: 0;
+    margin :0;
+    text-align: justify;
+}
+
+#menu-item {
+    line-height: 1.7rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-h3-title{
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: .8rem;
+    font-weight: 500;
+    color: #131a2b;
+}
+
+footer a{
+    display: flex;
+    font-size: .7rem;
+    line-height: 1.71;
+    color: #55647b;
+    padding: 0;
+    margin: 0;
+}
+
+
 
 /* BOTTOM */
+
+.footer-bottom-container{
+    padding-top: 40px;
+    text-align: left;
+    line-height: 1.5;
+    font-size: .5rem;
+    color: #55647b;
+}
