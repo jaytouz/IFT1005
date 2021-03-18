@@ -24,7 +24,7 @@ header.main-header{
 
 hr.main-nav-hr{
     width: 100%;
-    color: #bfc1c4;
+    color: #2c2c2c38;
     border-width: 0.5px;
 }
 
@@ -70,7 +70,7 @@ a {
   transform: rotate(135deg);
 }
 
-#logo {
+#logo-nav {
     
     float: left;
     justify-content: center;
@@ -137,8 +137,6 @@ h1.page-section-title{
     font-family: "Graphik Web", sans-serif;
     margin-bottom: 1.7em;
     color: black;
-    margin-block-start: 1.5rem;
-    margin-block-end: 1.5rem;
 }
 
 
@@ -175,7 +173,6 @@ span.elementor-bold-caps{
     color:slategray;
     text-align: center;
     font-family: 'Roboto',sans-serif;
-    font-style: bold;
 }
 
 /* IMG HARDWARD*/
@@ -509,19 +506,6 @@ section.media{
     display: flex;
 }
 
-.btn-arrow{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 48px;
-    height: 48px;
-    background-color: #4769d8;
-    will-change: opacity;
-    padding: 30px;
-    text-align: left;
-    border: 1px solid #dde2ea;
-    border-radius: .25rem;
-}
 
 
 .media-container{
@@ -743,7 +727,6 @@ div.footer-menu-list-middle ul{
     margin :0;
     justify-content: space-around;
     align-content: flex-start;
-    padding-inline-start: 0px;
 }
 
 div.footer-menu-list-right ul{
@@ -752,7 +735,7 @@ div.footer-menu-list-right ul{
     text-align: justify;
 }
 
-#menu-item {
+.menu-item {
     line-height: 1.7rem;
     list-style: none;
     padding: 0;
