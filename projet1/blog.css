@@ -2,33 +2,41 @@ a{
     text-decoration: none;
 }
 
-.nav_href{
+/*.nav_href{
     color:black;
     font-size:14px;
     font-family: Arial, Helvetica, sans-serif;
-}
-.nav {
+    padding-top: 50px;
+}*/
+.nav{
     text-align: right;
-    padding-top: 7px;
+    padding-top: 10px;
+    max-width: 1180px;
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    background: transparent;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* this class is for the navigation bar links at the top of our page*/
 
 .nav a{
-    font-size:16px;
-    color:slategrey;
-    background: transparent;
-    border: none;
+    /*font-size:16px;*/
+    /*background: transparent;
+    border: none;*/
+    color: slategrey;
     margin-left: 10px;
     margin-right: 10px;
 }
 
-#sign_in {
-    border-left:red;
-    margin-left: 39px;
-    margin-right: 66px;
+.nav-a{
+    padding-top: 5px;
 }
-
+/*
 .caron {
   border: red;
   color: slategrey;
@@ -37,52 +45,53 @@ a{
   padding: 1px;
   transform: rotate(45deg);
   transform: rotate(135deg);
-}
+}*/
 
 #logo {
-    margin-left: 53px;
+    margin-left: 13px;
     float: left;
-    /*margin-top: 0px;*/
-    /*padding-top: 0px;*/
+}
+
+#sign_in {
+    margin-right: 20px;
 }
 
 .menu-section{
     padding-top: 20px;
     padding-bottom: 70px;
+
 }
 
 .menu {
     text-align: center;
+    max-width: 1180px;
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: auto;
+    margin-left: auto;
     padding-top: 12px;
     padding-bottom: 12px;
     font-size:16px;
     color:slategrey;
     background: transparent;
     border: none;
-    margin-left: 10px;
-    margin-right: 10px;
     font-family: Arial, Helvetica, sans-serif;
     word-spacing: 20px;
 }
 
 #actual-section{
-    color:black;
-    text-align: left;
+    margin-left: 20px;
     float: left;
-    margin-left: 365px;
-    font-size: 20px;
     font-weight: 500;
-    color: #131a2b;
+    font-size: 20px;
+    color:black;
 }
 
 #search-icon{
-    color:black;
-    text-align: right;
-    /*float: right;*/
-    margin-left: 400px;
-    font-size: 20px;
+    float: right;
+    margin-right: 20px;
     font-weight: 500;
-    color: #131a2b;
 }
 
 hr{
@@ -98,6 +107,7 @@ hr{
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 
 .blogs-grid{
@@ -107,7 +117,7 @@ hr{
     grid-template-columns: 300px 300px 300px;
     grid-column-gap: 90px;
     grid-row-gap:40px;
-    width:
+    max-width: 1180px;
     /*margin-left: 400px;*/
     /*vh vw*/
 }
