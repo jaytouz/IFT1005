@@ -14,6 +14,16 @@ body{
     letter-spacing: normal;
 }
 
+/*SECTION CONTAINER utilisé dans le début d'une section */
+div.section-container{
+    max-width: 1180px;
+    margin-bottom: 140px;
+    align-content: center;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 h2{
     font-size: 2rem;
 }
@@ -414,16 +424,6 @@ section.included-dark-section{
     text-align: center;
 }
 
-/*SECTION CONTAINER utilisé dans le début d'une section */
-div.section-container{
-    max-width: 1180px;
-    margin-bottom: 140px;
-    align-content: center;
-    text-align: center;
-    margin-right: auto;
-    margin-left: auto;
-}
-
 
 div.section-text-dark{
     width: 470px;
@@ -664,7 +664,7 @@ div#label-subscribe-form{
     border-radius: .25rem;
     
 }
-/* BODY */
+/* FOOTER-BODY */
 .footer-body-container{
     padding-top: 40px;
     line-height: 1.5;

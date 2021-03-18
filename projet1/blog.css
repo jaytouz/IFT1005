@@ -160,3 +160,254 @@ hr{
 img{
     border-radius: 8px;
 }
+
+/*
+    **ALL FOOTER**
+*/
+
+/* FOOTER */
+footer {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: #f0f4f8;
+}
+/* Container */
+div.section-container{
+    max-width: 1180px;
+    margin-bottom: 140px;
+    align-content: center;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* TOP */
+.footer-top-container{
+    border-bottom: 1px solid #e0e6ee;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+
+}
+/* FELLOW */
+.follow-network{
+    overflow-x: hidden;
+    background-color: #f0f4f8;
+    max-width: 33%;
+}
+
+.network-fellow-flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 40px;
+    margin-left: 40px;
+    align-items: center;
+    font-size: 1rem;
+    color: #131a2b;
+    text-align: left;
+    font-family: "Graphik Web", sans-serif;
+    flex-grow: 1;
+    max-width: 100%;
+    font-weight: 500;
+}
+
+.logo-twitter-facebook{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.facebook{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    margin: 16px 8px 0;
+    background-color: #b4c2ef;
+    border-radius: 100%;
+}
+
+.twitter{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    margin: 16px 8px 0;
+    background-color: #b4c2ef;
+    border-radius: 100%;
+}
+
+/* SUBSCRIBE */
+.subscribe-form-container{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 67%;
+    padding-right: 50px;
+    padding-left: 50px;
+    align-content: center;
+
+}
+
+.form-subscribe{
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+}
+
+div#label-subscribe-form{
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: left;
+    font-weight: bold;
+    color: black;
+    font-family: "Graphik Web", sans-serif;
+    max-width: 30%;
+}
+
+.update-form-text-place-holder{
+    border: 0;
+    color: #131a2b;
+    vertical-align: center;
+    font-family: "Graphik Web", sans-serif;
+    font-size: .9rem;
+}
+
+.update-form{
+    padding-right: 10px;
+    background-color: #fff;
+    border-radius: .25rem;
+    position: relative;
+    display: inline-flex;
+
+}
+
+.btn-subscribe{
+    font-family: "Graphik Web", sans-serif;
+    font-size: .85rem;
+    color: #fff ;
+    white-space: nowrap;
+    background-color: #4769d8;
+    border: 1px solid #4769d8;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: .25rem;
+
+}
+/* BODY */
+
+
+.footer-body-container{
+    padding-top: 40px;
+    line-height: 1.5;
+    font-size: .7rem;
+    color: #55647b;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+/* COUNTAINER */
+    /* GRID */
+.footer-body-grid{
+    display: flex;
+    flex-wrap: wrap;
+
+    margin-top: -60px;
+    margin-right: -50px;
+    margin-left: -50px;
+    padding-top: 60px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+#logo-footer{
+    display: flex;
+}
+
+    /* ITEM */
+.footer-body-grid-item-left{
+    max-width: 34%;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.footer-body-grid-item-middle{
+    max-width: 36%;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.footer-body-grid-item-right{
+
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.footer-body-grid-item-left p{
+    text-align: justify;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    line-height: 1.71;
+}
+div.footer-menu-list{
+    width: 100%;
+}
+div.footer-menu-list-middle ul{
+    flex-direction: column;
+    column-count: 2;
+    padding: 0;
+    margin :0;
+    justify-content: space-around;
+    align-content: flex-start;
+}
+
+div.footer-menu-list-right ul{
+    padding: 0;
+    margin :0;
+    text-align: justify;
+}
+
+.menu-item {
+    line-height: 1.7rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-h3-title{
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: .8rem;
+    font-weight: 500;
+    color: #131a2b;
+}
+
+footer a{
+    display: flex;
+    font-size: .7rem;
+    line-height: 1.71;
+    color: #55647b;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+/* BOTTOM */
+
+.footer-bottom-container{
+    padding-top: 40px;
+    text-align: left;
+    line-height: 1.5;
+    font-size: .5rem;
+    color: #55647b;
+}

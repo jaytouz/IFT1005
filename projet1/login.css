@@ -157,6 +157,14 @@ footer {
     background-color: #f0f4f8;
 }
 /* Container */
+div.section-container{
+    max-width: 1180px;
+    margin-bottom: 140px;
+    align-content: center;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
 
 /* TOP */
 .footer-top-container{
@@ -281,6 +289,8 @@ div#label-subscribe-form{
 
 }
 /* BODY */
+
+
 .footer-body-container{
     padding-top: 40px;
     line-height: 1.5;
