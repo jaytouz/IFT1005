@@ -38,6 +38,13 @@ hr.main-nav-hr{
     border-width: 0.5px;
 }
 
+hr{
+    border-top: 1px grey;
+    width: 100%;
+    color: #2c2c2c38;
+    border-width: 0.5px;
+}
+
 
 a {
     color: #131a2b;
@@ -84,8 +91,6 @@ a {
     
     float: left;
     justify-content: center;
-    /*margin-top: 0px;*/
-    /*padding-top: 0px;*/
 }
 
 /* SUB MENU SYDNEY */
@@ -176,7 +181,6 @@ p#recommended-by-ele{
     color:slategray;
     text-align: center;
     font-family: 'Roboto',sans-serif;
-    margin-top:0rem;
 }
 
 span.elementor-bold-caps{
@@ -205,9 +209,6 @@ a.demos-btn {
     font-size: .85rem;
     font-weight: 500;
     line-height: 1.5;
-    text-decoration: none;
-    white-space: nowrap;
-    cursor: pointer;
     color: #4769d8;
     background-color: #e7ebfa;
     border-radius: .2rem;
@@ -222,7 +223,6 @@ a.download-btn {
     padding: .55rem 1.5rem .6rem;
     font-family: "Graphik Web", sans-serif;
     font-size: .85rem;
-    font-weight: 500;
     line-height: 1.5;
     text-decoration: none;
     white-space: nowrap;
@@ -244,11 +244,7 @@ a.go-pro-btn {
     padding: .55rem 1.5rem .6rem;
     font-family: "Graphik Web", sans-serif;
     font-size: .85rem;
-    font-weight: 500;
     line-height: 1.5;
-    text-decoration: none;
-    white-space: nowrap;
-    cursor: pointer;
     color: white;
     background-color: #ea2e49;
     border-color: #ea2e49;
@@ -334,7 +330,6 @@ div.middle-info-container{
     font-size: 1rem;
     font-weight: 500;
     line-height: 1;
-    color: currentColor;
 }
 
 .lower-text-info{
@@ -412,7 +407,6 @@ div.flex-item{
     max-width: 100%;
     height: auto;
     vertical-align: middle;
-    border-style: none;
 }
 
 /* SECTION DARK */
@@ -447,8 +441,6 @@ div.dark-flex-item{
     padding-left: 3%;
     flex-grow: 1;
     max-width: 27%;
-
-
 }
 
 div.dark-item-icon{
@@ -481,11 +473,8 @@ div.dark-item-description{
     margin-top: 0;
     margin-bottom: 1.7rem;
     font-family: "Graphik Web", sans-serif;
-    font-weight: 500;
     line-height: 1.4;
     color: #131a2b;
-    text-transform: none;
-    letter-spacing: normal;
 }
 
 .btn-group{
@@ -569,7 +558,6 @@ footer {
     font-family: "Graphik Web", sans-serif;
     flex-grow: 1;
     max-width: 100%;
-    font-weight: 500;
 }
 
 .logo-twitter-facebook{
@@ -611,7 +599,6 @@ footer {
     padding-right: 50px;
     padding-left: 50px;
     align-content: center;
-
 }
 
 .form-subscribe{
@@ -647,14 +634,12 @@ div#label-subscribe-form{
     border-radius: .25rem;
     position: relative;
     display: inline-flex;
-    
 }
 
 .btn-subscribe{
     font-family: "Graphik Web", sans-serif;
     font-size: .85rem;
     color: #fff ;
-    white-space: nowrap;
     background-color: #4769d8;
     border: 1px solid #4769d8;
     padding-top: 10px;
@@ -678,7 +663,6 @@ div#label-subscribe-form{
 .footer-body-grid{
     display: flex;
     flex-wrap: wrap;
-    
     margin-top: -60px;
     margin-right: -50px;
     margin-left: -50px;

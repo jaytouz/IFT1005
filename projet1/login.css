@@ -139,7 +139,7 @@ label{
     color: #131a2b;
 }
 
-p{
+.login-section p{
     margin-top: 1rem;
     margin-bottom: 2rem;
     color: #131a2b;
@@ -383,6 +383,7 @@ footer a{
     color: #55647b;
     padding: 0;
     margin: 0;
+    text-decoration: none;
 }
 
 
@@ -391,6 +392,8 @@ footer a{
 
 .footer-bottom-container{
     padding-top: 40px;
+    padding-right: 50px;
+    padding-left: 50px;
     text-align: left;
     line-height: 1.5;
     font-size: .5rem;
