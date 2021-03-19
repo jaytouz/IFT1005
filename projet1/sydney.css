@@ -44,20 +44,26 @@ a {
     text-decoration: none;
 }
 
-.nav {
-    text-align: right;
-    padding-top: 7px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 1180px;
-    height: 100%;
+/* NAV BAR */
 
+.nav {
+    font-size:16px;
+    text-align: right;
+    padding-top: 10px;
+    max-width: 1180px;
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    background: transparent;
+    border: none;
+    font-family: "Roboto", sans-serif;
 }
 
 /* this class is for the navigation bar links at the top of our page*/
 
 .nav a{
-    font-size:16px;
     color:slategrey;
     background: transparent;
     border: none;
@@ -71,17 +77,18 @@ a {
     margin-right: 66px;
 }
 
+/* Source : https://www.w3schools.com/howto/howto_css_arrows.asp*/
 .caron {
-  border: solid black;
-  border-width: 1px 1px 0px 0;
-  display: inline-block;
-  padding: 2px;
-  transform: rotate(45deg);
-  transform: rotate(135deg);
+    border: solid slategrey;
+    border-width: 1px 1px 0px 0;
+    display: inline-block;
+    padding: 2px;
+    transform: rotate(45deg);
+    transform: rotate(135deg);
 }
 
 #logo-nav {
-    
+
     float: left;
     justify-content: center;
     /*margin-top: 0px;*/
@@ -525,7 +532,7 @@ section.media{
 
 .media-img img{
     border-radius: 50%;
-    
+
 }
 .media-body{
     display:inline-block;
@@ -617,7 +624,7 @@ footer {
 .form-subscribe{
     flex-basis: 0;
     flex-grow: 1;
-    max-width: 100%;    
+    max-width: 100%;
 }
 
 div#label-subscribe-form{
@@ -647,7 +654,7 @@ div#label-subscribe-form{
     border-radius: .25rem;
     position: relative;
     display: inline-flex;
-    
+
 }
 
 .btn-subscribe{
@@ -662,7 +669,7 @@ div#label-subscribe-form{
     padding-left: 20px;
     padding-right: 20px;
     border-radius: .25rem;
-    
+
 }
 /* FOOTER-BODY */
 .footer-body-container{
@@ -678,7 +685,7 @@ div#label-subscribe-form{
 .footer-body-grid{
     display: flex;
     flex-wrap: wrap;
-    
+
     margin-top: -60px;
     margin-right: -50px;
     margin-left: -50px;

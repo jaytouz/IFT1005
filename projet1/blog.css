@@ -1,14 +1,24 @@
-a{
+
+/* ALL PAGE COMMON */
+
+a {
     text-decoration: none;
 }
-
-/*.nav_href{
-    color:black;
-    font-size:14px;
+html{
+    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    padding-top: 50px;
-}*/
+}
+
+body{
+    width: 100%;
+    font-size: .9rem;
+    line-height: 1.5;
+    letter-spacing: normal;
+}
+
+/* NAV BAR*/
 .nav{
+    font-size:16px;
     text-align: right;
     padding-top: 10px;
     max-width: 1180px;
@@ -19,15 +29,11 @@ a{
     margin-left: auto;
     background: transparent;
     border: none;
-    font-family: Arial, Helvetica, sans-serif;
+    color: #4769d8;
+    font-family: "Roboto", sans-serif;
 }
 
-/* this class is for the navigation bar links at the top of our page*/
-
 .nav a{
-    /*font-size:16px;*/
-    /*background: transparent;
-    border: none;*/
     color: slategrey;
     margin-left: 10px;
     margin-right: 10px;
@@ -36,18 +42,19 @@ a{
 .nav-a{
     padding-top: 5px;
 }
-/*
+
+/* Source : https://www.w3schools.com/howto/howto_css_arrows.asp*/
 .caron {
-  border: red;
-  color: slategrey;
+  border: solid grey;
   border-width: 1px 1px 0px 0;
   display: inline-block;
-  padding: 1px;
+  padding: 2px;
+  margin-bottom: 5px;
   transform: rotate(45deg);
   transform: rotate(135deg);
-}*/
+}
 
-#logo {
+#logo-style{
     margin-left: 13px;
     float: left;
 }
@@ -55,6 +62,8 @@ a{
 #sign_in {
     margin-right: 20px;
 }
+
+/* MENU */
 
 .menu-section{
     padding-top: 20px;
@@ -98,8 +107,9 @@ hr{
     border-top: 1px grey;
 }
 
+/* BLOG */
+
 .blog{
-    text-align: justify;
     width:min-content;
 }
 
@@ -118,14 +128,12 @@ hr{
     grid-column-gap: 90px;
     grid-row-gap:40px;
     max-width: 1180px;
-    /*margin-left: 400px;*/
-    /*vh vw*/
 }
 
 .blog-title{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 24px;
-    font-weight: 600;
+    font-weight: 700;
     text-align: left;
     color:black;
 }
@@ -139,7 +147,7 @@ hr{
 .blog-description{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
-    color:darkgray;
+    color:slategrey;
     text-align: left;
 }
 
@@ -147,7 +155,7 @@ hr{
     display:inline;
     margin-right: 5px;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 550;
+    font-weight: 600;
     font-size: 14px;
     color:black;
 }
@@ -161,11 +169,26 @@ img{
     border-radius: 8px;
 }
 
-/*
-    **ALL FOOTER**
-*/
+.pages-navigator{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 120px;
+    padding-top: 50px;
+    font-family: Roboto, sans-serif;
+}
+
+.pages-navigator a{
+    padding: 10px;
+    color:black;
+    font-weight: bold;
+}
+
+#current-page{
+    color:#4769d8;
+}
 
 /* FOOTER */
+
 footer {
     padding-top: 70px;
     padding-bottom: 70px;
