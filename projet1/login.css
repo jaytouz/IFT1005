@@ -50,7 +50,7 @@ body{
 .caron {
     border: solid slategrey;
     margin-bottom: 5px;
-    border-width: 1px 1px 0px 0;
+    border-width: 1px 1px 0px 0px;
     display: inline-block;
     padding: 2px;
     transform: rotate(45deg);
@@ -136,9 +136,10 @@ label{
     color: #4769d8;
 }
 
-.login-div p{
-    margin-top: 10px;
-    margin-bottom: 30px;
+.login-section p{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    color: #131a2b;
     font-weight: 700;
 }
 
@@ -378,6 +379,7 @@ footer a{
     color: #55647b;
     padding: 0;
     margin: 0;
+    text-decoration: none;
 }
 
 
@@ -386,6 +388,8 @@ footer a{
 
 .footer-bottom-container{
     padding-top: 40px;
+    padding-right: 50px;
+    padding-left: 50px;
     text-align: left;
     line-height: 1.5;
     font-size: .5rem;
