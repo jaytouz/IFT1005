@@ -1,0 +1,22 @@
+html{
+        font-family: Mont,sans-serif;
+        font-size: 14px;
+}
+.container{
+    /*border box serait mieux*/
+    height:500px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 950px;
+    background: #3a70e0;
+}
+h1{
+    font-size: 50px;
+    color:white;
+}
+
+img{
+    padding-top: 40px;
+    width: 105%;
+}
