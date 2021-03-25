@@ -1,22 +1,57 @@
 html{
-        font-family: Mont,sans-serif;
-        font-size: 14px;
+    font-family: Montserrat,sans-serif;
+    font-size: 14px;
+    color:white
 }
-.container{
-    /*border box serait mieux*/
-    height:500px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 950px;
+.grid-container{
+    padding-right: 50px;
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
     background: #3a70e0;
+    align-content: center;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-column-gap: 90px;
+    grid-row-gap:40px;
+    max-width: 1400px;
+    margin-left: 64px;
+    margin-right: 70px;
+
+}
+.flexbox{
+    height:500px;
+    flex-direction: column;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.subheading{
+    box-sizing: content-box;
+    background: #f46252;
+    width: 120px;
+    font-size: 9px;
+    font-weight: 700;
+    padding: 2px;
 }
 h1{
     font-size: 50px;
-    color:white;
+    margin-top: 0;
 }
-
 img{
     padding-top: 40px;
-    width: 105%;
+    width: 100%;
+}
+
+button{
+    margin-top: 40px;
+    width: 170px;
+    height: 35px;
+    border-radius: 15px;
+    color:grey;
+    border-color: transparent;
+    background-color: white;
+    font-family: Montserrat,sans-serif;
 }
