@@ -1,57 +1,104 @@
+/* commun à toutes les pages */
+
 html{
     font-family: Montserrat,sans-serif;
-    font-size: 14px;
+    font-size: 1.1vw;
     color:white
 }
-.grid-container{
-    padding-right: 50px;
-    padding-left: 40px;
-    padding-top: 40px;
-    padding-bottom: 20px;
-    box-sizing: border-box;
-    background: #3a70e0;
-    align-content: center;
-    justify-items: center;
-    display: grid;
-    grid-template-columns: 500px 500px;
-    grid-column-gap: 90px;
-    grid-row-gap:40px;
-    max-width: 1400px;
-    margin-left: 64px;
-    margin-right: 70px;
 
+a {
+    text-decoration: none;
+    color:slategrey;
 }
-.flexbox{
-    height:500px;
-    flex-direction: column;
-    width: 400px;
-    display: flex;
-    flex-wrap: wrap;
-}
-.subheading{
-    box-sizing: content-box;
-    background: #f46252;
-    width: 120px;
-    font-size: 9px;
-    font-weight: 700;
-    padding: 2px;
-}
-h1{
-    font-size: 50px;
-    margin-top: 0;
-}
-img{
-    padding-top: 40px;
+
+/* NAV BARRE */
+
+.nav{
     width: 100%;
+    text-align: left;
+    max-width: 96%;
+    width: 100%;
+    /* padding-right: 20px;
+    padding-left: 8px; */
+    margin-right: auto;
+    margin-left: auto;
+    background: white;
+    border: none;
+    color:slategrey;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.logo{
+    margin-top: 0.5%;
+    width: 15%;
+    display: inline-block;
+}
+
+.nav-item{
+    display: inline-block;
+    padding: 0.5% 1% 0px;
+    font-weight: 500;
+}
+
+hr{
+    border-top: 1px white;
+}
+
+/* Box */
+
+.grid-container{
+    display: flex;
+    justify-content: center;
+    margin-left:4%;
+    margin-right:4%;
+}
+
+.grid{
+    background: #3a70e0;
+    display: grid;
+    box-sizing: content-box;
+    grid-template-columns: 50% 50%;
+    height: 700px;
+}
+
+.flexbox{
+    padding-left:14%;
+    padding-top: 8%;
+}
+
+.subheading{
+   box-sizing: content-box;
+   background: #f46252;
+   width: 23.5%;
+   font-size: 61%;
+   font-weight: 700;
+   padding: 0.5%
+}
+
+h1{
+    font-size: 350%;
+    margin-top: 0%;
+}
+
+#new_in_february-img{
+    float:right;
+    width: 86%;
+    padding-left: 20%;
+    padding-top:10%;
 }
 
 button{
-    margin-top: 40px;
+    /* margin-top: 20px;
     width: 170px;
-    height: 35px;
+    height: 35px; */
+    margin-top: 5%;
+    width: 30%;
+    height: 5%;
     border-radius: 15px;
     color:grey;
     border-color: transparent;
     background-color: white;
     font-family: Montserrat,sans-serif;
+    font-size: 85%;
 }
