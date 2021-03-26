@@ -1,10 +1,5 @@
 /* commun au page */
 
-:root{
-    --small-width:50%;
-    --small-width-threshold: 1000px
-    --normal-width:60%;
-}
 
 
 * {
@@ -99,18 +94,6 @@ p{
     font-size: 0.9rem;
 }
 
-@media screen and (min-width:var(--small-width-threshold)) {
-    .section-container {
-        width: 60%;
-
-    }
-}
-
-@media screen and (max-width:var(--small-width-threshold + 1)) {
-    .section-container  {
-        width: 50%;
-    }
-}
 
 .section-container{
     padding: 5% 18.25%;
@@ -139,7 +122,6 @@ p{
 
 
 .row-item-content{
-
     height: 100%;
     width: 100%;
     display: flex;
