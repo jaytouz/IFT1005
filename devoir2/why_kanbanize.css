@@ -24,8 +24,6 @@ section {
 }
 
 
-
-
 a {
     text-decoration: none;
     color:slategrey;
@@ -53,6 +51,10 @@ a {
     margin-top: 0.5%;
     width: 15%;
     display: inline-block;
+}
+
+#logo{
+    box-shadow: none;
 }
 
 .nav-item{
@@ -112,7 +114,6 @@ https://stackoverflow.com/questions/46548987/a-grid-layout-with-responsive-squar
 }
 
 .box-item {
-    /* box-sizing: border-box; */
     background-color: white;
     position: relative;
     box-sizing: border-box;
@@ -130,7 +131,7 @@ https://stackoverflow.com/questions/46548987/a-grid-layout-with-responsive-squar
 
 .box-content {
     /* permet de debuter le contenu par dessus le padding ajouter 
-    box-item::before */
+    */
     position: absolute;
     top: 0;
     left: 0;
@@ -178,7 +179,6 @@ https://stackoverflow.com/questions/46548987/a-grid-layout-with-responsive-squar
 }
 
 .box-body {
-    /* box-sizing: border-box; */
     font-size: 1.2rem;
     font-weight: 300;
     padding-left: 15%;
