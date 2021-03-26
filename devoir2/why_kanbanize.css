@@ -36,8 +36,6 @@ a {
     text-align: left;
     max-width: 96%;
     width: 100%;
-    /* padding-right: 20px;
-    padding-left: 8px; */
     margin-right: auto;
     margin-left: auto;
     background: white;
@@ -92,7 +90,7 @@ p {
 }
 
 
-/* INSPIRATION DE 
+/* INSPIRATION DE
 https://stackoverflow.com/questions/46548987/a-grid-layout-with-responsive-squares */
 
 .row {
@@ -130,7 +128,7 @@ https://stackoverflow.com/questions/46548987/a-grid-layout-with-responsive-squar
 }
 
 .box-content {
-    /* permet de debuter le contenu par dessus le padding ajouter 
+    /* permet de debuter le contenu par dessus le padding ajouter
     */
     position: absolute;
     top: 0;
