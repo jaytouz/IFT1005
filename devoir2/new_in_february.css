@@ -1,8 +1,8 @@
-/* commun à toutes les pages */
+/* Partie commune à toutes les pages */
 
 html{
     font-family: Montserrat,sans-serif;
-    font-size: 1.1vw;
+    font-size: 13px;
     color:white
 }
 
@@ -11,15 +11,13 @@ a {
     color:slategrey;
 }
 
-/* NAV BARRE */
+/* Barre de navigation */
 
 .nav{
     width: 100%;
     text-align: left;
     max-width: 96%;
     width: 100%;
-    /* padding-right: 20px;
-    padding-left: 8px; */
     margin-right: auto;
     margin-left: auto;
     background: white;
@@ -50,35 +48,62 @@ hr{
 .grid-container{
     display: flex;
     justify-content: center;
-    margin-left:4%;
-    margin-right:4%;
 }
 
+/* J'ai trouvé comment les grids fonctionnaient sur ce site :
+https://www.w3schools.com/css/css_grid.asp */
 .grid{
     background: #3a70e0;
     display: grid;
     box-sizing: content-box;
     grid-template-columns: 50% 50%;
-    height: 700px;
 }
 
 .flexbox{
     padding-left:14%;
+    padding-right: 12%;
     padding-top: 8%;
 }
 
+/* J'ai trouvé comment les grids fonctionnaient sur ce site :
+https://www.w3schools.com/cssref/css3_pr_box-sizing.asp */
 .subheading{
    box-sizing: content-box;
    background: #f46252;
-   width: 23.5%;
    font-size: 61%;
    font-weight: 700;
    padding: 0.5%
 }
 
 h1{
-    font-size: 350%;
     margin-top: 0%;
+}
+
+@media screen and (min-width:1301px) {
+    .grid-container{
+        height: 750px;
+        margin-left:9%;
+        margin-right:11%;
+    }
+    h1{
+        font-size: 550%;
+    }
+    .subheading{
+        width: 19%;
+    }
+}
+@media screen and (max-width:1300px) {
+    .grid-container{
+        height: 500px;
+        margin-left:4%;
+        margin-right:6%;
+    }
+    h1{
+        font-size: 400%;
+    }
+    .subheading{
+        width: 25%;
+    }
 }
 
 #new_in_february-img{
@@ -89,9 +114,6 @@ h1{
 }
 
 button{
-    /* margin-top: 20px;
-    width: 170px;
-    height: 35px; */
     margin-top: 5%;
     width: 30%;
     height: 5%;
