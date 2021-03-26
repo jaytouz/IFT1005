@@ -32,6 +32,9 @@ a {
     width: 15%;
     display: inline-block;
 }
+#logo{
+    box-shadow: none;
+}
 
 .nav-item{
     display: inline-block;

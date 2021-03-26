@@ -1,59 +1,92 @@
-/* commun au page */
-
-:root{
-    --small-width:50%;
-    --small-width-threshold: 1000px
-    --normal-width:60%;
-}
-
+/* commun aux pages */
 
 * {
     box-sizing: content-box;
 }
-
 body {
     margin: 0 auto;
     font-size: 16px;
     color: #606060;
     font-weight: 400;
-    font-family: Mont,sans-serif;
+    font-family: Mont, sans-serif;
 }
 
-section{
-    background-color:#f3f3f3;
+section {
+    background-color: #f3f3f3;
     width: 100%;
-    box-shadow: 0 -25px 45px -22px rgba(0,0,0,0.2);
-
+    box-shadow: 0 -25px 45px -22px rgba(0, 0, 0, 0.2);
 }
 
-.section-container{
+.section-container {
     width: 80%;
     padding-top: 2%;
     margin: 5% auto;
-
-
 }
 
-.section-header{
+
+a {
+    text-decoration: none;
+    color:slategrey;
+}
+
+/* NAV BARRE */
+
+.nav{
+    width: 100%;
+    text-align: left;
+    max-width: 96%;
+    width: 100%;
+    /* padding-right: 20px;
+    padding-left: 8px; */
+    margin-right: auto;
+    margin-left: auto;
+    background: white;
+    border: none;
+    color:slategrey;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.logo{
+    margin-top: 0.5%;
+    width: 15%;
+    display: inline-block;
+}
+
+#logo{
+    box-shadow: none;
+}
+
+.nav-item{
+    display: inline-block;
+    padding: 0.5% 1% 0px;
+    font-weight: 500;
+}
+
+hr{
+    border-top: 1px white;
+}
+
+.section-header {
     width: 70%;
 }
 
-h1{
+h1 {
     font-size: 3rem;
 }
-h1 span#grey-bold{
-    color:#606060;
-    font-weight: bold;
 
-}
-
-h1 span#black-bold{
-    color:black;
+h1 span#grey-bold {
+    color: #606060;
     font-weight: bold;
 }
 
-p{
-    font-family: Montserrat,sans-serif;
+h1 span#black-bold {
+    color: black;
+    font-weight: bold;
+}
+
+p {
+    font-family: Montserrat, sans-serif;
     color: #606060;
     font-weight: 400;
 }
@@ -61,94 +94,128 @@ p{
 
 /* INSPIRATION DE 
 https://stackoverflow.com/questions/46548987/a-grid-layout-with-responsive-squares */
-.row{
+
+.row {
     /* changer en vw */
     padding: 5%;
-    margin-left: -5%; 
+    margin-left: -5%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;  
-    align-items: center; 
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 /* Clear floats after the columns */
+
 .row:after {
     content: "";
     display: table;
     clear: both;
 }
 
-.box-item{
-    /* box-sizing: border-box; */
-    background-color:white;
+.box-item {
+    background-color: white;
     position: relative;
     box-sizing: border-box;
     width: 25%;
-    margin:1%;
-    box-shadow: 0.5px -0.5px 10px 2px rgba(0,0,0,0.1);
+    margin: 1%;
+    box-shadow: 0.5px -0.5px 10px 2px rgba(0, 0, 0, 0.1);
 }
 
-.box-item:before{
+
+.box-item:before {
     content: "";
     display: block;
     padding-top: 100%;
 }
 
-.box-content{
+.box-content {
     /* permet de debuter le contenu par dessus le padding ajouter 
-    box-item::before */
+    */
     position: absolute;
     top: 0;
     left: 0;
     height: 100%;
     width: 100%;
     display: flex;
-    flex-wrap: wrap;              
-    justify-content: space-evenly;     
-    align-items: center;  
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
 }
-    
 
-.box-title{ 
-    /* box-sizing: border-box;
-    padding: 10% 15%; */
+
+.box-title {
     font-size: 7rem;
 }
 
-.number-title span{
-    -webkit-text-fill-color:transparent;
-    -webkit-text-stroke-width: 1.00px; 
-    letter-spacing:2px;
+@media screen and (max-width:1400px) {
+    .box-title {
+        font-size: 6rem;
+    }
+}
+@media screen and (max-width:1200px) {
+    .box-title{
+        font-size: 5rem;
+    }
 }
 
-.box-body{
-    /* box-sizing: border-box; */
+@media screen and (max-width:1000px) {
+    .box-title{
+        font-size: 4rem;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .box-title{
+        font-size: 3rem;
+    }
+}
+
+
+.number-title span {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1.00px;
+    letter-spacing: 2px;
+}
+
+.box-body {
     font-size: 1.2rem;
     font-weight: 300;
     padding-left: 15%;
     padding-right: 15%;
-
 }
 
 
+@media screen and (max-width:1400px) {
+    .box-body{
+        font-size: 0.9rem;
+    }
+}
+@media screen and (max-width:1200px) {
+    .box-body{
+        font-size: 0.7rem;
+    }
+}
 
-span.jaune{
+
+@media screen and (max-width:800px) {
+    .box-body{
+        font-size: .4rem;
+    }
+}
+
+
+span.jaune {
     color: rgb(236, 176, 10);
     font-weight: bold;
-
 }
 
-span.bleu{
-    color:rgb(6, 87, 209);
+span.bleu {
+    color: rgb(6, 87, 209);
     font-weight: bold;
-
 }
-span.vert{
+
+span.vert {
     color: rgb(21, 148, 21);
     font-weight: bold;
 }
-
-
-
-
-
