@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title> Animation SVG 1</title>
+</head>
+
+
+<body>
+
+    <h1>Animation 1</h1>
+
+    <!-- Ressource utilisée pour viewBox et trans: https://www.sarasoueidan.com/blog/svg-coordinate-systems/ -->
+    <svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" viewBox="-100 -100 200 200">
+
+        <!-- Ressource utilisée pour translate : https://www.sarasoueidan.com/blog/svg-transformations/ -->
+        <!-- Ressource utilisée pour path : https://developer.mozilla.org/fr/docs/Web/SVG/Tutorial/Paths -->
+        <path transform="translate(-100 -100)" d="M100 100
+                        C 150 40, 210 100, 150 150
+                        L100 200
+                        L50 150
+                        C -10 100, 50 40, 100 100" stroke="black" fill="black"/>
+
+        <animateTransform attributeName="transform" type="scale" values="0.75; 1; 0.75; 0.85; 0.75;" dur="0.9s"
+            repeatCount="indefinite"/>
+    </svg>
+</body>
+
+</html>
