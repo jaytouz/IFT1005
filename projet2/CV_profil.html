@@ -113,11 +113,40 @@
       </div>
   </section>
   </div>
-  <div class=center-box>
+  <section class=center-box>
       <h3> Citation du jour </h3>
       <p id="quote">“You miss 100% of the shots you don’t take. - Wayne Gretzky” - Michael Scott</p>
       <script> generate_quote();</script>
-  </div>
+  </section>
+  <section class=form-section>
+      <form id="exercice-1" action="https://www.w3schools.com/action_page.php" method="post">
+        <table>
+          <!-- 1. Champs utilisateur-->
+          <tr>
+            <td><label for="first_name">Prénom </label></td>
+            <td><label for="last_name">Nom </label></td>
+          </tr>
+          <tr>
+            <td><input type="text" name="first_name"></td>
+            <td><input type="text" name="last_name"></td>
+          </tr>
+          <tr>
+            <td><label for="email">Adresse courriel </label></td>
+          </tr>
+          <tr>
+              <td><input type="text" name="email"></td>
+          </tr>
+          <tr>
+            <td><label for="message">Écrivez votre message ici... </label></td>
+          </tr>
+          <tr>
+              <td><input type="text" name="message"></td>
+          </tr>
+        </table>
+        <!-- 3. Bouton-->
+        <button type="submit">Se connecter</button>
+      </form>
+  </section>
 </body>
 
 </html>
