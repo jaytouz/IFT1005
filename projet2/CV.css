@@ -1,9 +1,139 @@
 
-@media screen and (min-width:1500){
+/* Global */
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* TOP PAGE PROFIL */
+
+.all_caps {
+    text-transform: uppercase;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.grid-container {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+.grid {
+    background: whitesmoke;
+    display: grid;
+    box-sizing: content-box;
+    grid-template-columns: 30% 70%;
+    grid-template-columns: 500px 500px;
+    line-height: 0.3;
+    /* color: #000033; */
+}
+
+.flexbox {
+    padding-left: 18%;
+    padding-right: 10%;
+    padding-top: 18%;
+}
+
+/* Source : https://stackoverflow.com/questions/39428232/h1-wont-center-with-a-set-width */
+
+.quote-section {
+    width: 50%;
+    text-align: center;
+    padding-top: 100px;
+    margin: 0 auto;
+    font-size: 125%;
+    padding: 100px
+}
+
+#quote {}
+
+/* Source : https://stackoverflow.com/questions/44023583/css3-grey-image-to-blue-color-using-filters/44024010 */
+
+/* img{
+    filter: sepia(100%) hue-rotate(190deg) saturate(100%);
+} */
+
+.background-color {
+    /* background-color: #000033; */
+    /* background-color: #668cff; */
+    background-image: linear-gradient(#002080, #001a66);
+    height: 80%;
+    width: 100%;
+}
+
+#profile-picture {
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+
+input[name="email"] {
+    width: 370px;
+}
+
+input[name="message"] {
+    width: 370px;
+    height: 200px;
+}
+
+button {
+    width: 370px;
+}
+
+td>button {
+    background-color: #001a66;
+    color: white;
+    font-size: 75%;
+    padding: 5px;
+    margin-top: 8px;
+}
+
+hr {
+    /* works but not for white */
+    /* background:red; */
+}
+
+.form-section h4 {
+    padding: 15px;
+}
+
+/* Source : https://www.w3schools.com/css/css_align.asp */
+
+.form-section {
+    height: 570px;
+    position: relative;
+    background: whitesmoke;
+    padding: 30px;
+    text-align: center;
+    border-top: 1px solid #e6e6e6;
+    /* line-height: 1.5; */
+}
+
+form {
+    margin: 0;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: left;
+    padding: 20px;
+}
+
+td>label {
+    font-size: 80%;
+}
+
+
+/* TIMELINE DE EXPERIENCE ET ACCREDITATION */
+@media screen and (max-width:1500){
     
     .row.cv{
         height: 10vw;
-        width: 80%;
+        width: 1000px;
         margin:auto;
     }
 }
@@ -12,7 +142,7 @@
     
     .row.cv{
         height: 12vw;
-        width: 80%;
+        width: 1000px;
         margin:auto;
     }
 }
@@ -21,7 +151,7 @@
     
     .row.cv{
         height: 14vw;
-        width: 80%;
+        width: 800px;
         margin:auto;
     }
 }
@@ -30,9 +160,16 @@
     
     .row.cv{
         height: 15vw;
-        width: 80%;
+        width: 600px;
         margin:auto;
     }
+}
+
+
+.row.cv{
+    height: 15vw;
+    width: 1000px;
+    margin:auto;
 }
 
 .vline{

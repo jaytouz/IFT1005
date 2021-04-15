@@ -1,43 +1,19 @@
-.all_caps {
-  text-transform: uppercase;
-}
-.bold{
-  font-weight: 700;
-}
-/* .navbar-brand{
-    padding-top: 200px;
-} */
-/* .box{
-    align-content: center;
-} */
-/* .container-fluid{
-    background-color: #3a70e0;
-    width:100%;
-    max-width:none;
-    padding:0;
-} */
-/* .col-md6{
-    padding: 25px;
-    line-height: 1;
-} */
-/* #quote{
-    padding:0;
-    margin-left:0;
-    margin-right:0
-} */
-/* .center-block{
-    padding:25px;
-    display:inline-grid;
-    align-content: center;
-} */
 
-.grid-container{
+.all_caps {
+    text-transform: uppercase;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.grid-container {
     display: flex;
     justify-content: center;
     padding: 100px;
 }
 
-.grid{
+.grid {
     background: whitesmoke;
     display: grid;
     box-sizing: content-box;
@@ -47,73 +23,92 @@
     /* color: #000033; */
 }
 
-.flexbox{
+.flexbox {
     padding-left: 18%;
     padding-right: 10%;
     padding-top: 18%;
 }
+
 /* Source : https://stackoverflow.com/questions/39428232/h1-wont-center-with-a-set-width */
-.quote-section{
+
+.quote-section {
     width: 50%;
     text-align: center;
     padding-top: 100px;
     margin: 0 auto;
     font-size: 125%;
-    padding:100px
-
+    padding: 100px
 }
-#quote{
 
-}
+#quote {}
+
 /* Source : https://stackoverflow.com/questions/44023583/css3-grey-image-to-blue-color-using-filters/44024010 */
+
 /* img{
     filter: sepia(100%) hue-rotate(190deg) saturate(100%);
 } */
-.background-color{
+
+.background-color {
     /* background-color: #000033; */
     /* background-color: #668cff; */
-    background-image: linear-gradient(#002080,#001a66);
-    height: 600px;
+    background-image: linear-gradient(#002080, #001a66);
+    height: 80%;
+    width: 100%;
+}
+
+#profile-picture {
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
 }
 
 /* input{
     width:400px;
 } */
-input[name="email"]{
-  width:370px;
+
+input[name="email"] {
+    width: 370px;
 }
+
 input[name="message"] {
-  width:370px;
-  height: 200px;
+    width: 370px;
+    height: 200px;
 }
-button{
-    width:370px;
+
+button {
+    width: 370px;
 }
-td > button {
-  background-color:#001a66;
-  color:white;
-  font-size: 75%;
-  padding: 5px;
-  margin-top: 8px;
+
+td>button {
+    background-color: #001a66;
+    color: white;
+    font-size: 75%;
+    padding: 5px;
+    margin-top: 8px;
 }
-hr{
+
+hr {
     /* works but not for white */
     /* background:red; */
 }
-.form-section h4{
+
+.form-section h4 {
     padding: 15px;
 }
+
 /* Source : https://www.w3schools.com/css/css_align.asp */
-.form-section{
+
+.form-section {
     height: 570px;
     position: relative;
     background: whitesmoke;
-    padding:30px;
+    padding: 30px;
     text-align: center;
     border-top: 1px solid #e6e6e6;
     /* line-height: 1.5; */
 }
-form{
+
+form {
     margin: 0;
     position: absolute;
     top: 60%;
@@ -123,6 +118,7 @@ form{
     text-align: left;
     padding: 20px;
 }
-td > label {
+
+td>label {
     font-size: 80%;
 }
