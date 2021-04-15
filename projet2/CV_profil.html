@@ -93,35 +93,34 @@
           </div>
           <div class="flexbox">
               <h2> Michael Scott</h2>
-              <p class="all_caps"> Manager and entrepreneur </p>
+              <p class="all_caps"> Gérant et entrepreneur </p>
               <p>&nbsp;</p>
               <p>&nbsp;</p>
-              <p class="bold"> Phone: </p>
+              <p class="bold"> Numéro de téléphone: </p>
               <p> +1 438-897-0257 </p>
               <p>&nbsp;</p>
-              <p class="bold"> Email: </p>
+              <p class="bold"> Adresse courriel: </p>
               <p> littlekidlover@dundermifflin.com</p>
               <p>&nbsp;</p>
-              <p>&nbsp;</p>
-              <p class="bold"> Address: </p>
+              <p class="bold"> Adresse: </p>
               <p> 2230 Mulberry Street</p>
               <p>Scranton, PA 18510</p>
               <p>&nbsp;</p>
-              <p class="bold"> Date of birth : </p>
-              <p> March 15, 1965</p>
+              <p class="bold"> Date de naissance: </p>
+              <p> 15 mars 1965</p>
           </div>
       </div>
   </section>
   </div>
-  <section class=center-box>
+  <section class=quote-section>
       <h3> Citation du jour </h3>
       <p id="quote">“You miss 100% of the shots you don’t take. - Wayne Gretzky” - Michael Scott</p>
       <script> generate_quote();</script>
   </section>
   <section class=form-section>
+      <h4 class="all_caps"> Contact </h4><hr>
       <form id="exercice-1" action="https://www.w3schools.com/action_page.php" method="post">
         <table>
-          <!-- 1. Champs utilisateur-->
           <tr>
             <td><label for="first_name">Prénom </label></td>
             <td><label for="last_name">Nom </label></td>
@@ -131,20 +130,21 @@
             <td><input type="text" name="last_name"></td>
           </tr>
           <tr>
-            <td><label for="email">Adresse courriel </label></td>
+            <td colspan="2"><label for="email">Adresse courriel </label></td>
           </tr>
           <tr>
-              <td><input type="text" name="email"></td>
+              <td colspan="2"><input type="text" name="email"></td>
           </tr>
           <tr>
-            <td><label for="message">Écrivez votre message ici... </label></td>
+            <td colspan="2"><label for="message">Écrivez votre message ici... </label></td>
           </tr>
           <tr>
-              <td><input type="text" name="message"></td>
+              <td colspan="2"><input type="text" name="message"></td>
+          </tr>
+          <tr>
+              <td colspan="2"><button type="submit">Soumettre</button></td>
           </tr>
         </table>
-        <!-- 3. Bouton-->
-        <button type="submit">Se connecter</button>
       </form>
   </section>
 </body>
