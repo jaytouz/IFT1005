@@ -4,6 +4,9 @@
 .bold{
   font-weight: 700;
 }
+/* .navbar-brand{
+    padding-top: 200px;
+} */
 /* .box{
     align-content: center;
 } */
@@ -41,7 +44,7 @@
     grid-template-columns: 30% 70%;
     grid-template-columns: 500px 500px;
     line-height: 0.1;
-    color: #000033;
+    /* color: #000033; */
 }
 
 .flexbox{
@@ -49,7 +52,25 @@
     padding-right: 10%;
     padding-top: 18%;
 }
+/* Source : https://stackoverflow.com/questions/39428232/h1-wont-center-with-a-set-width */
 .center-box{
+    width: 50%;
     text-align: center;
-    padding: 20px;
+    padding-top: 100px;
+    margin: 0 auto;
+    font-size: 125%;
+
+}
+#quote{
+    padding:20px
+}
+/* Source : https://stackoverflow.com/questions/44023583/css3-grey-image-to-blue-color-using-filters/44024010 */
+/* img{
+    filter: sepia(100%) hue-rotate(190deg) saturate(100%);
+} */
+.background-color{
+    /* background-color: #000033; */
+    /* background-color: #668cff; */
+    background-image: linear-gradient(#002080,#001a66);
+    height: 600px;
 }
