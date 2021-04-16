@@ -13,6 +13,13 @@
   width: 70%;
   margin: auto;
 } */
-.carousel-item {
-  transition-duration: 2s;
+.carousel .item {
+  height: 3000px;
+}
+
+.item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
 }
