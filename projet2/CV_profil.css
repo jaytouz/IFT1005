@@ -1,3 +1,6 @@
+/* Noms et matricules
+Thalie St-Jacques (20074387)
+Jérémie Tousignant (1038501) */
 /* TOP PAGE PROFIL */
 
 .all_caps {
@@ -110,7 +113,6 @@ form {
     position: absolute;
     top: 60%;
     left: 50%;
-    -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: left;
     padding: 20px;
@@ -122,7 +124,7 @@ td>label {
 
 
 /* TIMELINE DE EXPERIENCE ET ACCREDITATION */
-@media screen and (max-width:1500){
+@media screen and (max-width:1500px){
 
     .row.cv{
         height: 10vw;
@@ -132,7 +134,7 @@ td>label {
 }
 
 
-@media screen and (min-width:1000){
+@media screen and (min-width:1000px){
 
     .row.cv{
         height: 14vw;
