@@ -1,3 +1,4 @@
+/* TOP PAGE PROFIL */
 
 .all_caps {
     text-transform: uppercase;
@@ -62,10 +63,6 @@
     height: 100%;
 }
 
-/* input{
-    width:400px;
-} */
-
 input[name="email"] {
     width: 370px;
 }
@@ -121,4 +118,94 @@ form {
 
 td>label {
     font-size: 80%;
+}
+
+
+/* TIMELINE DE EXPERIENCE ET ACCREDITATION */
+@media screen and (max-width:1500){
+
+    .row.cv{
+        height: 10vw;
+        width: 1000px;
+        margin:auto;
+    }
+}
+
+
+@media screen and (min-width:1000){
+
+    .row.cv{
+        height: 14vw;
+        width: 800px;
+        margin:auto;
+    }
+}
+
+
+.row.cv{
+    height: 20vw;
+    width: 1000px;
+    margin:auto;
+}
+
+.vline{
+    background-color: rgb(122, 122, 122);
+    width: 2px;
+    overflow: visible;
+    position: relative;
+}
+
+svg.dot-timeline{
+    position:absolute;
+    top:5%;
+    left:50%;
+    transform:translate(-50%, 5%);
+}
+
+.row.header-left{
+    margin-left: 5%;
+    margin-bottom: 5%;
+    justify-content: flex-end;
+}
+
+.row.header-right{
+    justify-content: start;
+    margin-left: 5%;
+    margin-bottom: 5%;
+
+}
+
+
+
+
+.row.body-right{
+    margin-left: 5%;
+    margin-bottom: 5%;
+
+}
+
+.row.body-left{
+    margin-left: 5%;
+    margin-bottom: 10%;
+    text-align: right;
+    justify-content: flex-end;
+}
+
+.row.compagny{
+    font-size: 1.3rem;
+}
+.row.job-title{
+    font-size: 1.1rem;
+}
+
+.circular-container img{
+    border-radius:50%;
+    border:1px solid black;
+}
+
+
+h6{
+    text-align: center;
+    align-content: center;
+    vertical-align: middle;
 }

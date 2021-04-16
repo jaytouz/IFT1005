@@ -1,4 +1,23 @@
-#nav-profil, #nav-education, #nav-experience,#nav-passions, div, section{
+#nav-profil, #nav-contact,#nav-portfolio, div, section{
     color: #000033;
 }
-/* body {background-color: #92a8d1;} */
+html {
+    scroll-behavior: smooth;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+}
+
+h1{
+
+}
+h2{
+
+}
+h3{
+
+}
+h4{
+
+}
